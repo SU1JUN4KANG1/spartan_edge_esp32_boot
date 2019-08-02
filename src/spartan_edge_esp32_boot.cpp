@@ -3,11 +3,6 @@
 spartan_edge_esp32_boot::spartan_edge_esp32_boot() {
   // initialize serial communication at 115200 bits per second: 
   Serial.begin(115200);
-  
-    // Sent Serial Configuration Data
-  if(!SD_MMC.begin()){
-    Serial.println("Card Mount Failed");
-  }
 }
 
 // XFPGA pin Initialize

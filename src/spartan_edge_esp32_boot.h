@@ -26,16 +26,13 @@
 // the bitstream name which we loading
 #define LOADING_DEFAULT_FIEE "/overlay/spi2gpio.bit"
 
-
-
 class spartan_edge_esp32_boot {
   public:
-	spartan_edge_esp32_boot();
+    spartan_edge_esp32_boot();
     void xfpgaGPIOInit(void);
     int xlibsSstream(const char* path);
-	
-	
   private:  
 };
 
  #endif
+ 
