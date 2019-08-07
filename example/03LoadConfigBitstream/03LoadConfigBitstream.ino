@@ -22,12 +22,12 @@ char buffer[bufferLen];
 char buffer1[bufferLen];
 // the setup routine runs once when you press reset:
 void setup() {
-  // run in setup fuc
-  Serial.println("run in setup fuc ----------------");
+  // initialization 
+  esp32Cla.begin();
 
   // Mount SD Card
   if(!SD_MMC.begin()){
-    Serial.println("Card Mount Failed");
+    Serial.println("Card Mount Failed,please reboot the board");
     return;
   }
 
@@ -79,6 +79,6 @@ void setup() {
 }
 
 // the loop routine runs over and over again forever:
-void loop(){
+void loop() {
   // nothink to do
 }

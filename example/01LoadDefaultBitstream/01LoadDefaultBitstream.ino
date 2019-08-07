@@ -13,11 +13,17 @@
 // initialize the spartan_edge_esp32_boot library
 spartan_edge_esp32_boot esp32Cla;
 
+// the bitstream name which we loading
+#define LOADING_DEFAULT_FIEE "/overlay/spi2gpio.bit"
+
 // the setup routine runs once when you press reset:
 void setup() {
-  // Sent Serial Configuration Data
+  // initialization 
+  esp32Cla.begin();
+  
+  // Mount SD Card
   if(!SD_MMC.begin()) {
-    Serial.println("Card Mount Failed");
+    Serial.println("Card Mount Failed,please reboot the board");
     return;
     }
   
