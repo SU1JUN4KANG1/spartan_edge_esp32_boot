@@ -3,6 +3,7 @@
 spartan_edge_esp32_boot::spartan_edge_esp32_boot() {
   // initialize serial communication at 115200 bits per second: 
   Serial.begin(115200);
+  
 }
 
 // XFPGA pin Initialize

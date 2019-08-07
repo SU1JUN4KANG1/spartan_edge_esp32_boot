@@ -11,6 +11,7 @@
 #include <Arduino.h>
 #include "FS.h"
 #include "SD_MMC.h"
+#include "IniFile.h"
 
 /* pin define */
 #define XFPGA_CCLK_PIN 17
@@ -22,9 +23,6 @@
 // the sizes about one time reading
 // If this value is too high, which will result result in failure
 #define READ_SIZE 256
-
-// the bitstream name which we loading
-#define LOADING_DEFAULT_FIEE "/overlay/spi2gpio.bit"
 
 class spartan_edge_esp32_boot {
   public:
