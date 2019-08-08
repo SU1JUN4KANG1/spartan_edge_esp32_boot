@@ -13,6 +13,7 @@
 
 // include the library:
 #include <spartan_edge_esp32_boot.h>
+#include "IniFile.h"
 
 // initialize the spartan_edge_esp32_boot library
 spartan_edge_esp32_boot esp32Cla;
