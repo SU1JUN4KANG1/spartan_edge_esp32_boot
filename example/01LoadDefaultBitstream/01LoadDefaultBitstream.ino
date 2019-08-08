@@ -20,13 +20,7 @@ spartan_edge_esp32_boot esp32Cla;
 void setup() {
   // initialization 
   esp32Cla.begin();
-  
-  // Mount SD Card
-  if(!SD_MMC.begin()) {
-    Serial.println("Card Mount Failed,please reboot the board");
-    return;
-    }
-  
+
   // XFPGA pin Initialize
   esp32Cla.xfpgaGPIOInit();
 

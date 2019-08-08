@@ -1,9 +1,16 @@
 #include <spartan_edge_esp32_boot.h>
+#include "SD_MMC.h"
 
 // initialization
 void spartan_edge_esp32_boot::begin(void) {
   // initialize serial communication at 115200 bits per second: 
   Serial.begin(115200); 
+  
+  // Mount SD Card
+  if(!SD_MMC.begin()){
+    Serial.println("Card Mount Failed,please reboot the board");
+    return;
+  }
 }
 
 // XFPGA pin Initialize

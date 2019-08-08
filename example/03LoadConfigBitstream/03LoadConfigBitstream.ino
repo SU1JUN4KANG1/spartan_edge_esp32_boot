@@ -26,12 +26,6 @@ void setup() {
   // initialization 
   esp32Cla.begin();
 
-  // Mount SD Card
-  if(!SD_MMC.begin()){
-    Serial.println("Card Mount Failed,please reboot the board");
-    return;
-  }
-
   // check the .ini file exist or not
   const char *filename = "/board_config.ini";
   IniFile ini(filename);

@@ -8,7 +8,6 @@
 #define SPARTAN_EDGE_ESP32_BOOT_H 
  
 #include <Arduino.h>
-#include "SD_MMC.h"
 
 /* pin define */
 #define XFPGA_CCLK_PIN 17
