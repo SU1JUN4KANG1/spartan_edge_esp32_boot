@@ -28,23 +28,22 @@ If you want more details ,you can click the [link](https://github.com/espressif/
 ## Library instructions  
 - #### FPGA LOGIC  
 We provide some FPGA_LOGIC files to load.you can dowmload them in dir ___overlay___  
-	+ color_detect.bit  
+	+ #### color_detect.bit  
 	To detect color blocks, RPi MIPI camera v1.3 version is required.  
-	+ hdmi_v1.bit  
+	+ #### hdmi_v1.bit  
 	Displays moving color stripes on HDMI  
-	+ mipi_camera.bit  
+	+ #### mipi_camera.bit  
 	The RPi MIPI camera v1.3 is required to capture images and display them on the HDMI display.  
-	+ spi2gpio.bit  
+	+ #### spi2gpio.bit  
 	SPI interface GPIO extension logic, which supporting the operation of ADC/DAC/ rgb-led.  
 
 - #### example Instructions  
 if you want to use this example, you should copy the dir ___overay___ to your SDcard rootdir.  
 And copy this Repository to ___arduino/libraries___.  
-	+ 01LoadDefaultBitstream
+	+ 01LoadDefaultBitstream  
 	this example will load the spi2gpio.bit as FPGA LOGIC  
 	+ 02LoadConfigBitstream  
-	this example will read a ___ini___ format file, getting the value of overlay_on_boot,
-	and ESP32 will load the FPGA LOGIC.  
+	this example will read a ___ini___ format file, getting the value of overlay_on_boot,and ESP32 will load the FPGA LOGIC.  
 	you can get the ___inifile___ from this example
 
 ## other Libraries
