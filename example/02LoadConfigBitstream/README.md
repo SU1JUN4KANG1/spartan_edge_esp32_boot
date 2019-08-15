@@ -27,15 +27,15 @@ If you want more details ,you can click the [link](https://github.com/espressif/
 
 ## Library instructions  
 - #### FPGA LOGIC  
-We provide some FPGA_LOGIC files to load.you can dowmload them in dir ___overlay___
+We provide some FPGA_LOGIC files to load.you can dowmload them in dir ___overlay___  
 	+ color_detect.bit  
-	To detect color blocks, RPi MIPI camera v1.3 version is required.
+	To detect color blocks, RPi MIPI camera v1.3 version is required.  
 	+ hdmi_v1.bit  
-	Displays moving color stripes on HDMI
+	Displays moving color stripes on HDMI  
 	+ mipi_camera.bit  
-	The RPi MIPI camera v1.3 is required to capture images and display them on the HDMI display.
+	The RPi MIPI camera v1.3 is required to capture images and display them on the HDMI display.  
 	+ spi2gpio.bit  
-	SPI interface GPIO extension logic, which supporting the operation of ADC/DAC/ rgb-led.
+	SPI interface GPIO extension logic, which supporting the operation of ADC/DAC/ rgb-led.  
 
 - #### example Instructions  
 if you want to use this example, you should copy the dir ___overay___ to your SDcard rootdir.  
