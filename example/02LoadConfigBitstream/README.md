@@ -2,8 +2,9 @@
 The purpose of this article is to show how to load FPGA LOGIC to Spartan Edge Accelerator Board by arduino IDE  
 
 ## Contents
-- [Using Instructions](#installation-instructions)
-- [Libraries Instructions](#Libraries-Instructions)
+- [Spartan Edge Accelerator Board description](#Spartan-Edge-Accelerator-Board-description)
+- [Installation instructions](#Installation-instructions)
+- [other Libraries](#other-Libraries)
 
 ## Spartan Edge Accelerator Board description
 It can be used independently as an Arduino compatible board, or plugged into an Arduino as an auxiliary accelerator board.  
