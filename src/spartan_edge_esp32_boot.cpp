@@ -30,7 +30,7 @@ void spartan_edge_esp32_boot::xfpgaGPIOInit(void) {
   digitalWrite(XFPGA_PROGRAM_PIN, HIGH);
 }
 
-
+// loading the FPGA LOGIC
 int spartan_edge_esp32_boot::xlibsSstream(const char* path) {
   unsigned char byte_buff[1024];
   int byte_len;
@@ -38,7 +38,7 @@ int spartan_edge_esp32_boot::xlibsSstream(const char* path) {
   int i = 0;
   int j = 0;
 	
-  // Sent Serial Configuration Data
+  // open the file
   File file = SD_MMC.open(path);
   if(!file) {
     Serial.println("Failed to open");
