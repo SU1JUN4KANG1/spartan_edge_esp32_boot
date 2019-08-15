@@ -26,7 +26,7 @@ Development release link: `https://dl.espressif.com/dl/package_esp32_dev_index.j
 If you want more details ,you can click the [link](https://github.com/espressif/arduino-esp32)
 
 ## Library instructions  
-- #### FPGA LOGIC  
+#### - FPGA LOGIC  
 We provide some FPGA_LOGIC files to load.you can dowmload them in dir ___overlay___  
 	+ #### color_detect.bit  
 	To detect color blocks, RPi MIPI camera v1.3 version is required.  
