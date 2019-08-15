@@ -1,5 +1,5 @@
 /*
- * 03LoadConfigBitstream
+ * 02LoadConfigBitstream
  * 
  * reading the board_config.ini file.
  * getting the value of overlay_on_boot,
