@@ -12,7 +12,7 @@ It can be used independently as an Arduino compatible board, or plugged into an 
 (picture)  
 
 ## Installation instructions 
-___using Arduino IDE Boards Manager____
+___using Arduino IDE Boards Manager___  
 Starting with 1.6.4, Arduino allows installation of third-party platform packages using Boards Manager. We have packages available for Windows, Mac OS, and Linux (32 and 64 bit).
 
 - Install the current upstream Arduino IDE at the 1.8 level or later. The current version is at the [Arduino website](http://www.arduino.cc/en/main/software).
