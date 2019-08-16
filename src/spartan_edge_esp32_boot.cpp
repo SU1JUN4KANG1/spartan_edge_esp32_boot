@@ -7,8 +7,9 @@ void spartan_edge_esp32_boot::begin(void) {
   Serial.begin(115200); 
   
   // Mount SD Card
-  if(!SD_MMC.begin()){
+  if(!SD_MMC.begin()) {
     Serial.println("Card Mount Failed,please reboot the board");
+	while(1);
     return;
   }
 }
@@ -85,6 +86,8 @@ int spartan_edge_esp32_boot::xlibsSstream(const char* path) {
   digitalWrite(XFPGA_CCLK_PIN, LOW); 
 	
   if(byte_len == -1) Serial.println("read error");
+	
+  file.close();
 	
   // check the result
   pinMode(XFPGA_DONE_PIN, INPUT);
