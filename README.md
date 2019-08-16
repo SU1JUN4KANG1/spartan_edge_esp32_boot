@@ -47,7 +47,7 @@ And copy this Repository to ___arduino/libraries___.
 	you can get the ___inifile___ from this example
 
 ## other Libraries  
-+ Library __spartan_edge_ioex__ (loading spi2gpio.bit)
++ Library __spartan_edge_ioex__ (loading spi2gpio.bit)  
 if you loading spi2gpio.bit, this library makes it easier for you to control spartan-edge-accelerator board
 if you want to use it, you can click this [link](https://github.com/SU1JUN4KANG1/spartan_edge_ioex)
 
