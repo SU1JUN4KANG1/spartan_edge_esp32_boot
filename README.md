@@ -22,8 +22,8 @@ Starting with 1.6.4, Arduino allows installation of third-party platform package
 - select ___tool->board->DOIT ESP32 DEVKIT___   
   
   
-Stable release link: `https://dl.espressif.com/dl/package_esp32_index.json`
-Development release link: `https://dl.espressif.com/dl/package_esp32_dev_index.json`
+Stable release link: `https://dl.espressif.com/dl/package_esp32_index.json`  
+Development release link: `https://dl.espressif.com/dl/package_esp32_dev_index.json`  
 If you want more details ,you can click the [link](https://github.com/espressif/arduino-esp32)
 
 ## Library instructions  
